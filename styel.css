@@ -11,26 +11,31 @@
   }
 
   .section-fitness {
-    height:700px;
+    height:800px;
     width: 100%;
-    background: linear-gradient(180deg, rgb(20, 20, 20), rgba(0, 0, 0, 0) 100%);
-    width: 100%;
-    /* Adjust the height based on content */
+    background-color: black;
+    /* background: linear-gradient(180deg, rgb(20, 20, 20), rgba(0, 0, 0, 0) 100%); */
+   
+    
   }
   
   .nav-div2 ul
   {
     display: flex;
     gap: 20px;
+    font-size: 20px;
   }
   .nav-div1 h1
   {
     color: rgb(230,83,60);
     font-style: italic;
+    font-size: 32px;
   }
   .btn
   {
     background-color: rgb(230,83,60);
+    font-size: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 32px;
     color: white;
     
@@ -45,7 +50,8 @@
   {
     display: flex;
     justify-content: space-between;
-    margin: 40px 100px 40px 100px;
+    margin: 50px 150px 50px 150px;
+    align-items: center;
   }
   .fitness
   {
@@ -64,7 +70,7 @@ justify-content: space-between;
   }
   .main-div1 p
   {
-    font-size: 12px;
+    font-size: 16px;
     color: rgba(255, 255, 255, 0.5);
     margin-top: 40px;
     margin-bottom: 40px;
@@ -80,12 +86,75 @@ justify-content: space-between;
     width: 500px;
     height: 400px;
     margin-left: 150px;
+    margin-top: 30px;
   }
 
   
   .main-div2
   {
     width: 500px;
-    height: 400px;
+    height: 650px;
     margin-right: 150px;
+    display: flex;
+    flex-direction: column;
+  }
+  #images2-id
+  {
+    width: 500px;
+    height: 550px;
+  }
+  
+  .draw-circle
+  {
+    margin-left: 10px;
+    border-radius: 50%;
+    background-color: rgb(230, 83, 60);
+    width: 40px;
+    height: 40px;
+    
+  }
+  .criclered
+  {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+  }
+  .div350
+  {
+    margin-top: -150px;
+    margin-left: -70px;
+    color: white;
+    width: 190px;
+    height: 90px;
+
+    box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+
+backdrop-filter: blur(20px);
+background: rgba(48, 48, 48, 0.54);
+text-align: center;
+  }
+
+  #h1500
+  {
+    font-size: 30px;
+  }
+  .div500
+  {
+    margin-top: -350px;
+    margin-left: 350px;
+    color: white;
+    width: 210px;
+    height: 100px;
+    line-height: 10px;
+
+    box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+
+backdrop-filter: blur(20px);
+background: rgba(48, 48, 48, 0.54);
+text-align: center;
   }
