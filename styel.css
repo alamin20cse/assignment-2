@@ -158,3 +158,89 @@ backdrop-filter: blur(20px);
 background: rgba(48, 48, 48, 0.54);
 text-align: center;
   }
+
+
+/* 
+
+  @media screen and (max-width:576px) {
+    .nav-div2 {
+        visibility: hidden;
+    }
+
+    .div-red {
+        border: 2px solid red;
+        width: 100%;
+        height: 50px;
+        margin-top: 10px;
+    }
+
+    .div-blue {
+        border: 2px solid blue;
+        width: 100%;
+        height: 50px;
+        margin-top: 10px;
+    }
+
+    .div-tometa {
+        border: 2px solid green;
+        width: 100%;
+        height: 50px;
+        margin-top: 10px;
+    }
+} */
+
+.section-challange
+{
+
+  width: 100%;
+  background: #000;
+  margin: -20px auto;
+}
+
+#challange-h1
+{
+  color: white;
+  
+  font-size: 42px;
+  margin-top: 20px;
+}
+#challange-p
+{
+  color: rgba(255, 255, 255, 0.5);
+ 
+
+  font-size: 12px;
+}
+
+
+.section-challange-1
+{
+
+  color: white;
+  width: 60%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.section-challange-2
+{
+ 
+  display: flex;
+ justify-content: space-between;
+ padding: 150px;
+}
+
+.img-red
+{
+  height: 270px;
+  width: 250px;
+  border-radius: 50%;
+
+}
+.section-challange-2-imgdes
+{
+
+  height: 200px;
+  width: 250px;
+  color: white;
+}
