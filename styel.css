@@ -263,7 +263,7 @@ text-align: center;
 }
 .section-run-main
 {
-  height: 500px;
+  height: max-content;
   width: 80%;
   border-radius: 18px;
   background: rgb(34, 34, 34);
@@ -279,7 +279,7 @@ text-align: center;
 .run-des
 {
   width: 50%;
-  height: 100%;
+  height: max-content;
  padding: 20px;
 }
 .run-img
@@ -320,7 +320,6 @@ text-align: center;
 
 
 
-
 /* median for section-2 */
 @media screen and (max-width:576px) {
 
@@ -331,6 +330,16 @@ text-align: center;
     flex-direction: column;
     justify-content: center;
   
+  }
+
+
+  /* section-3 */
+  .section-run-main
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
   }
 
   
