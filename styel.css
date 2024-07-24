@@ -244,3 +244,94 @@ text-align: center;
   width: 250px;
   color: white;
 }
+
+.section-challange-2-imgdes p
+{
+
+  color: rgba(255, 255, 255, 0.5);
+
+}
+
+
+
+/* section -3 */
+
+
+.section-run
+{
+  background-color: #000;
+}
+.section-run-main
+{
+  height: 500px;
+  width: 80%;
+  border-radius: 18px;
+  background: rgb(34, 34, 34);
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.run-img1
+{
+  height: 350px;
+  width: 350px;
+}
+.run-des
+{
+  width: 50%;
+  height: 100%;
+ padding: 20px;
+}
+.run-img
+{
+  
+  padding: 5%;
+  
+}
+.run-img1
+{
+  border-radius: 18px;
+}
+.run-des h1
+{
+  color: white;
+  font-size: 64px;
+}
+
+.run-des p
+{
+  color: rgba(255, 255, 255, .5);
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+.btn-run
+{
+  width: 250px;
+  height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* median for section-2 */
+@media screen and (max-width:576px) {
+
+  .section-challange-2
+  {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+  }
+
+  
+}
