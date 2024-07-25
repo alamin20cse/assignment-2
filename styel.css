@@ -480,6 +480,24 @@ option
     justify-content: center;
     gap: 20px;
   }
+  /* section-4 bmi table */
+  .div4-table
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+  }
+  .div4-table1{
+    padding: 5%;
+  }
+  .div4-table2{
+    padding: 5%;
+  }
+  .div4-des
+  {
+    padding: 5%;
+  }
 
   
 }
