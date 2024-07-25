@@ -454,6 +454,11 @@ option
 
 
 /* section-5 */
+
+.section-5
+{
+  padding: 180px;
+}
 .div5-des h1
 {
   color: rgb(255, 255, 255);
@@ -482,20 +487,24 @@ option
   border-radius: 18px;
 
 background: rgba(255, 255, 255, 0.1);
-padding: 5%;
+padding: 10%;
+/* margin: 30px 20px 30px 20px; */
 
 }
 
 .grid-img
 {
   border-radius: 18px;
+  width: 98%;
+  height: 300px;
+  margin-bottom: 40px;
   
 
 }
 .img-name h1
 {
    color: rgb(255, 255, 255);
-   font-size: 48px;
+   font-size: 36px;
   
 }
 .img-name h5
@@ -509,6 +518,15 @@ padding: 5%;
   margin-top: -170px;
   line-height: 10px;
   margin-left: 40px;
+}
+.grid-main
+{
+  width: 96%;
+
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+ 
 }
 
 
@@ -571,5 +589,20 @@ padding: 5%;
     padding: 5%;
   }
 
+/* section-5 */
+.grid-main
+{
+  width: 400px;
+
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  gap: 20px;
+ 
+}
+
+
+
+
   
 }
+
