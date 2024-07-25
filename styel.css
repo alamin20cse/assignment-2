@@ -8,6 +8,8 @@
     font-style: normal;
     font-variation-settings:
       "slnt" 0;
+      background: #000;
+      
   }
 
   .section-fitness {
@@ -309,6 +311,64 @@ text-align: center;
   width: 250px;
   height: 50px;
 }
+
+/* secton-4  */
+.div4-des h1
+{
+  color: white;
+  font-size: 48px;
+}
+.div4-des p
+{
+  color: rgba(255, 255, 255, 0.5);
+
+  font-size: 18px;
+}
+.div4-des
+{
+  height: max-content;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 180px;
+}
+
+
+.div4-table
+{
+  height: max-content;
+  background: rgb(34, 34, 34);
+}
+
+.div4-table1 h1
+{
+  color: rgb(255, 255, 255);
+  font-size: 28px;
+}
+
+
+.div4-table1 th
+{
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+}
+
+
+.div4-table1 td
+{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+}
+table,th,td,tr{
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-collapse: collapse;
+}
+
+
+
+
+
+
+
 
 
 
