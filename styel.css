@@ -330,6 +330,7 @@ text-align: center;
   width: 60%;
   margin: 0 auto;
   margin-top: 180px;
+  margin-bottom: 100px;
 }
 
 
@@ -361,6 +362,9 @@ text-align: center;
 table,th,td,tr{
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-collapse: collapse;
+  height: 60px;
+  width: 400px;
+  text-align: center;
 }
 
 .div4-table2 h1
@@ -378,16 +382,27 @@ table,th,td,tr{
 .btn1
 {
   border-radius: 8px;
+  border: none;
 
 background: rgba(255, 255, 255, 0.1);
 color: rgba(255, 255, 255, 0.6);
+height: 50px;
+width: 48%;
+margin: 12px 0;
+text-align: left;
 }
 .btn2
 {
   border-radius: 8px;
+  border: none;
 
 background: rgba(255, 255, 255, 0.1);
 color: rgba(255, 255, 255, 0.6);
+height: 50px;
+width: 98%;
+margin: 18px 0;
+
+
 }
 .btn3
 {
@@ -411,13 +426,17 @@ width: 200px;
 .div4-table1
 {
   width: 50%;
-  padding: 90px;
+  padding: 180px;
 }
 
 .div4-table2
 {
   width: 50%;
-  padding: 90px;
+  padding: 180px;
+}
+option
+{
+  display: none;
 }
 
 
