@@ -23,10 +23,14 @@
 
 
   .section-fitness {
-    height:800px;
+    height: max-content;
     width: 100%;
-    background-color: black;
+    /* background-color: black; */
+    /* background-color:  rgba(255, 255, 255, 0.1); */
+
     /* background: linear-gradient(180deg, rgb(20, 20, 20), rgba(0, 0, 0, 0) 100%); */
+
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0) 100%);
    
     
   }
@@ -95,9 +99,10 @@ justify-content: space-between;
   }
   .main-div1
   {
-    width: 500px;
-    height: 400px;
-    margin-left: 150px;
+    width: 600px;
+    /* height: 400px; */
+    height: max-content;
+    margin-left: 180px;
     margin-top: 30px;
   }
 
@@ -106,7 +111,7 @@ justify-content: space-between;
   {
     width: 500px;
     height: 650px;
-    margin-right: 150px;
+    margin-right: 210px;
     display: flex;
     flex-direction: column;
   }
@@ -504,7 +509,7 @@ padding: 2%;
 .img-name h1
 {
    color: rgb(255, 255, 255);
-   font-size: 36px;
+   font-size: 30px;
   
 }
 .img-name h5
@@ -626,6 +631,26 @@ padding: 2%;
 /* median for section-2 */
 @media screen and (max-width:576px) {
 
+/* section-1 */
+.section-fitness
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+/* section 2 */
+
+
+
+
+
   .section-challange-2
   {
 
@@ -692,6 +717,67 @@ padding: 2%;
   margin: 0px 30px 0px 30px;
 }
 
+/* pore sara */
+/* only for width */
+
+.section-6-div-1
+{
+  width: 96%;
+}
+.section-6-div-2
+{
+  width: 96%;
+}
+.section-6-div-3
+{
+  width: 96%;
+}
+
+
+.run-des
+{
+  width: 98%;
+  height: max-content;
+ padding: 20px;
+}
+
+
+
+.section-challange-1
+{
+
+ 
+  width: 98%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+
+.div5-des
+{
+  height: max-content;
+  width: 98%;
+ 
+  margin-bottom: 20px;
+}
+
+/* 
+.div5-des h1
+{
+  height: max-content;
+  width: 98%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+} */
+
+
+
+/* for section-2 */
+.section-challange
+{
+  margin-top: 100px;
+}
 
 
 
