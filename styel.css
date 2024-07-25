@@ -1,5 +1,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Playwrite+DK+Loopet:wght@100..400&display=swap');
+
+.span1 {
+  font-family: "Playwrite DK Loopet", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
 .body
  {
     font-family: "Inter", sans-serif;
@@ -11,6 +20,7 @@
       background: #000;
       
   }
+
 
   .section-fitness {
     height:800px;
