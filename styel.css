@@ -444,9 +444,71 @@ width: 200px;
   width: 50%;
   padding: 180px;
 }
+/* problem */
 option
 {
   display: none;
+}
+
+
+
+
+/* section-5 */
+.div5-des h1
+{
+  color: rgb(255, 255, 255);
+  font-size: 48px;
+  text-align: center;
+
+}
+
+.div5-des p
+{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 24px;
+
+}
+
+.div5-des
+{
+  height: max-content;
+  width: 55%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.grid-main
+{
+  border-radius: 18px;
+
+background: rgba(255, 255, 255, 0.1);
+padding: 5%;
+
+}
+
+.grid-img
+{
+  border-radius: 18px;
+  
+
+}
+.img-name h1
+{
+   color: rgb(255, 255, 255);
+   font-size: 48px;
+  
+}
+.img-name h5
+{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 24px;
+  
+}
+.img-name
+{
+  margin-top: -170px;
+  line-height: 10px;
+  margin-left: 40px;
 }
 
 
