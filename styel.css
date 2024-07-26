@@ -632,12 +632,54 @@ padding: 2%;
 @media screen and (max-width:576px) {
 
 /* section-1 */
-.section-fitness
+.fitness
 {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
+  
 }
+
+
+.main-div1
+{
+  width: 98%;
+}
+
+
+.main-div2
+{
+  width: 95%;
+  height: 650px;
+ 
+  display: flex;
+  flex-direction: column;
+  padding: 70px;
+}
+#images2-id
+{
+  width: 98%;
+  height: 550px;
+}
+
+
+.main-div1
+  {
+    
+    height: max-content;
+    margin-left: 18px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -696,6 +738,7 @@ padding: 2%;
   display: grid;
   grid-template-columns: repeat(1,1fr);
   gap: 20px;
+  justify-content: center;
  
 }
 
@@ -717,20 +760,25 @@ padding: 2%;
   margin: 0px 30px 0px 30px;
 }
 
+
+
+
+
+
 /* pore sara */
 /* only for width */
 
 .section-6-div-1
 {
-  width: 96%;
+  width: 98%;
 }
 .section-6-div-2
 {
-  width: 96%;
+  width: 98%;
 }
 .section-6-div-3
 {
-  width: 96%;
+  width: 98%;
 }
 
 
