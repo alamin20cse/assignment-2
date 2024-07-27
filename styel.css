@@ -5,20 +5,34 @@
 
 .span1 {
   font-family: "Playwrite DK Loopet", cursive;
-  font-optical-sizing: auto;
+  /* font-optical-sizing: auto;
   font-weight: <weight>;
-  font-style: normal;
+  font-style: normal; */
 }
 .body
  {
     font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
+    /* font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
     font-variation-settings:
-      "slnt" 0;
+      "slnt" 0; */
       background: #000;
       
+  }
+
+  .thre-dot
+  {
+    width: 40px;
+    color: rgba(255, 255, 255, 0.1);
+    visibility: hidden;
+    
+  }
+  .thre-dot hr
+  {
+    
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
   }
 
 
@@ -80,10 +94,7 @@ justify-content: space-between;
     font-size: 4rem;
     color: white;
   }
-  .span1
-  {
-
-  }
+ 
   .main-div1 p
   {
     font-size: 16px;
@@ -628,10 +639,43 @@ padding: 2%;
 
 
 
-/* median for section-2 */
+/* median for Phone*/
+/* only medain sedtionn */
+
+
+
 @media screen and (max-width:576px) {
 
 /* section-1 */
+
+.thre-dot
+  {
+  
+    visibility:visible;
+    margin-right:18px;
+  }
+  
+  .nav-div1
+  {
+    margin-left: 18px;
+  }
+
+  .nav-div2
+  {
+    display: none;
+  }
+
+
+  .nav
+  {
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+   
+  }
+
+
 .fitness
 {
   display: flex;
