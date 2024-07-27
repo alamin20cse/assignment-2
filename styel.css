@@ -48,12 +48,23 @@
    
     
   }
+
+  .nav-div2
+  {
+    box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 28px;
+  }
   
   .nav-div2 ul
   {
     display: flex;
-    gap: 20px;
+    gap: 30px;
     font-size: 20px;
+    list-style-type: none;
+    color: white;
+    margin: 0 auto;
+    padding: 1px 5px 1px 5px;
   }
   .nav-div1 h1
   {
@@ -70,11 +81,6 @@
     color: white;
     
 
-  }
-  .nav-div2 ul
-  {
-    list-style-type: none;
-    color: white;
   }
   .nav
   {
@@ -189,6 +195,7 @@ justify-content: space-between;
     color: white;
     width: 190px;
     height: 90px;
+    line-height: 10px;
 
     box-sizing: border-box;
 border: 1px solid rgba(255, 255, 255, 0.1);
@@ -686,6 +693,15 @@ padding: 2%;
 
 @media screen and (max-width:576px) {
 
+/* for test body */
+/* 
+.body
+{
+  border: 3px solid red;
+} */
+
+
+
 /* section-1 */
 
 .thre-dot
@@ -727,7 +743,7 @@ padding: 2%;
 .div500
   {
     margin-top: -430px;
-    margin-left: 290px;
+    margin-left: 270px;
   }
 
 
@@ -841,10 +857,46 @@ padding: 2%;
   }
 
 /* section-5 */
+
+
+.section-5
+{
+  padding: 40px;
+}
 .no-show
 {
   display: none;
 }
+/* .od1 
+{
+
+} */
+.od2 
+{
+  order: 1;
+}
+
+
+.od3
+{
+  order: 3;
+
+}
+/* .od4 
+{
+  
+} */
+
+.od5 
+{
+  order: 2;
+}
+.od6
+{
+  order: 4;
+  
+}
+
 .grid-main
 {
   width: 400px;
@@ -863,6 +915,15 @@ padding: 2%;
   flex-direction: column;
   /* padding: 160px; */
   gap: 50px;
+ 
+}
+
+
+.section-6-maindiv
+{
+  
+  padding: 20px;
+ 
  
 }
 
