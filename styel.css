@@ -106,7 +106,22 @@ justify-content: space-between;
   {
     width: 200px;
     height: 50px;
+    border-radius: 36px;
+
+  }
+
+  .btn-download
+  {
+    width: 200px;
+    height: 50px;
     border-radius: 16px;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 36px;
+    font-size: 16px;
+    
+    background: #000;
+    color: white;
   }
   .main-div1
   {
@@ -137,8 +152,8 @@ justify-content: space-between;
     margin-left: 10px;
     border-radius: 50%;
     background-color: rgb(230, 83, 60);
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     
   }
   .criclered
@@ -148,6 +163,25 @@ justify-content: space-between;
     gap: 20px;
 
   }
+
+  .test
+{
+  height: 0px;
+  width: 0px;
+  /* background: white; */
+  transform: rotate(90.00deg);
+  border-bottom: 24px solid white;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  /* border-left: 12px solid  rgb(230, 83, 60);
+  border-right: 12px solid rgb(230, 83, 60); */
+  margin-left: 12px;
+ margin-top: 12px;
+ visibility: hidden;
+
+ 
+}
+
   .div350
   {
     margin-top: -150px;
@@ -413,9 +447,10 @@ table,th,td,tr{
 background: rgba(255, 255, 255, 0.1);
 color: rgba(255, 255, 255, 0.6);
 height: 50px;
-width: 48%;
+width: 165px;
 margin: 12px 0;
 text-align: left;
+font-size: 16px;
 }
 .btn2
 {
@@ -425,8 +460,9 @@ text-align: left;
 background: rgba(255, 255, 255, 0.1);
 color: rgba(255, 255, 255, 0.6);
 height: 50px;
-width: 98%;
+width:340px;
 margin: 18px 0;
+font-size: 16px;
 
 
 }
@@ -624,6 +660,10 @@ padding: 2%;
 
 
 
+/* test */
+
+
+
 
 
 
@@ -684,6 +724,12 @@ padding: 2%;
   
 }
 
+.div500
+  {
+    margin-top: -430px;
+    margin-left: 290px;
+  }
+
 
 .main-div1
 {
@@ -704,6 +750,12 @@ padding: 2%;
 {
   width: 98%;
   height: 550px;
+}
+
+/* for play button */
+.test
+{
+  visibility: visible;
 }
 
 
@@ -756,6 +808,15 @@ padding: 2%;
     gap: 20px;
   }
   /* section-4 bmi table */
+
+  div-button1
+  {
+
+    /* width: 500px; */
+    display: flex;
+    gap: 5px;
+    flex-direction: row;
+  }
   .div4-table
   {
     display: flex;
@@ -763,10 +824,15 @@ padding: 2%;
     justify-content: center;
     gap: 20px;
   }
+
   .div4-table1{
     padding: 5%;
   }
   .div4-table2{
+    display: flex;
+    flex-direction: column;
+    width: 96%;
+  
     padding: 5%;
   }
   .div4-des
@@ -775,6 +841,10 @@ padding: 2%;
   }
 
 /* section-5 */
+.no-show
+{
+  display: none;
+}
 .grid-main
 {
   width: 400px;
@@ -795,6 +865,7 @@ padding: 2%;
   gap: 50px;
  
 }
+
 
 
 .div-hr
