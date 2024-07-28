@@ -1053,6 +1053,33 @@ padding: 50px 10px 50px 10px;
 
 
 
+/* self section */
+.section-self-main
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section-self-div1
+{
+  
+  width:98%;
+}
+
+.section-self-div2
+{
+  
+  width:98%;
+}
+
+.section-self-div3
+{
+  
+  width:98%;
+}
+
+
 
 
 /* pore sara */
@@ -1116,6 +1143,7 @@ padding: 50px 10px 50px 10px;
 {
   margin-top: 100px;
 }
+
 
 
 
