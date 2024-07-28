@@ -687,6 +687,12 @@ padding: 2%;
 background: rgb(34, 34, 34);
 padding: 50px 10px 50px 10px;
 }
+.section-self-header
+{
+  color: white;
+  font-size: 44px;
+  text-align: center;
+}
 
 .section-self-div1
 {
@@ -701,8 +707,9 @@ padding: 50px 10px 50px 10px;
 }
 .section-self-div3
 {
-  background:khaki;
+  background-color: rgba(57, 83, 74, 0.525);
   width: 33%;
+  padding: 20px;
 }
 .section-self-main
 {
@@ -772,6 +779,32 @@ padding: 50px 10px 50px 10px;
   font-size: 20px;
   line-height: 30px;
 
+}
+
+
+
+
+
+.section-self-div3 img
+{
+  width: 170px;
+  height: 170px;
+  border-radius: 85px;
+}
+.section-self-div3-img
+{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  justify-content: space-between;
+  gap:5px;
+}
+.section-self-div3-ul
+{
+  list-style-type: square;
+  font-size: 18px;
+  font-weight: 800;
+  color: rgb(140, 124, 129);
+  line-height: 30px;
 }
 
 
@@ -1059,6 +1092,7 @@ padding: 50px 10px 50px 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap: 40px;
 }
 
 .section-self-div1
@@ -1071,13 +1105,17 @@ padding: 50px 10px 50px 10px;
 {
   
   width:98%;
+  padding: 0px;
 }
 
 .section-self-div3
 {
   
   width:98%;
+  padding: 0px;
 }
+
+
 
 
 
