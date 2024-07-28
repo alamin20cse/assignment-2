@@ -20,20 +20,17 @@
       background: #000;
       
   }
-
+ 
   .thre-dot
   {
-    width: 40px;
-    color: rgba(255, 255, 255, 0.1);
-    visibility: hidden;
     
-  }
-  .thre-dot hr
-  {
+    color: white;
+    display: none;
+
+   
     
-    border-radius: 10px;
-    border: 2px solid rgb(255, 255, 255);
-  }
+  } 
+  
 
 
   .section-fitness {
@@ -703,13 +700,25 @@ padding: 2%;
 
 
 /* section-1 */
-
+/* 
 .thre-dot
   {
   
     visibility:visible;
     margin-right:18px;
-  }
+  } */
+
+  
+  .thre-dot
+  {
+    
+    color: white;
+    display: flex;
+    margin-right: 18px;
+
+   
+    
+  } 
   
   .nav-div1
   {
