@@ -456,6 +456,16 @@ margin: 12px 0;
 text-align: left;
 font-size: 16px;
 }
+
+
+
+.btn-icon select
+{
+background-color: transparent;
+color: rgba(255, 255, 255, 0.6);
+border: none;
+float: right;
+}
 .btn2
 {
   border-radius: 8px;
@@ -700,13 +710,7 @@ padding: 2%;
 
 
 /* section-1 */
-/* 
-.thre-dot
-  {
-  
-    visibility:visible;
-    margin-right:18px;
-  } */
+
 
   
   .thre-dot
