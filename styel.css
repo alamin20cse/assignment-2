@@ -507,14 +507,14 @@ width: 200px;
 
 .div4-table1
 {
-  width: 50%;
-  padding: 180px;
+  width: 45%;
+  margin-left: 50px ;
 }
 
 .div4-table2
 {
-  width: 50%;
-  padding: 180px;
+  width: 45%;
+  margin-right: 50px;
 }
 /* problem */
 option
