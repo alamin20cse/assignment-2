@@ -103,7 +103,7 @@ justify-content: space-between;
     font-size: 16px;
     color: rgba(255, 255, 255, 0.5);
    
-    margin: 40px 50px 40px 10px;
+    margin: 40px 70px 40px 10px;
   }
   .btn-join
   {
@@ -530,7 +530,7 @@ option
 
 .section-5
 {
-  padding: 180px;
+  padding: 100px;
 }
 .div5-des h1
 {
@@ -560,9 +560,19 @@ option
   border-radius: 18px;
 
 background: rgba(255, 255, 255, 0.1);
-padding: 2%;
+padding: 5%;
 /* margin: 30px 20px 30px 20px; */
 
+
+width: 96%;
+
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  /* gap: 20px; */
+  grid-row-gap: 40px;
+grid-column-gap: 20px;
+
+ 
 }
 
 .grid-img
@@ -577,7 +587,7 @@ padding: 2%;
 .img-name h1
 {
    color: rgb(255, 255, 255);
-   font-size: 26px;
+   font-size: 22px;
   
 }
 .img-name h5
@@ -592,15 +602,7 @@ padding: 2%;
   line-height: 10px;
   margin-left: 40px;
 }
-.grid-main
-{
-  width: 96%;
 
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
-  gap: 20px;
- 
-}
 .section-6
 {
   background: rgba(255, 255, 255, 0.1);
