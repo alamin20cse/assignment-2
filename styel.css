@@ -293,13 +293,15 @@ text-align: center;
  
   display: flex;
  justify-content: space-between;
- padding: 150px;
+ padding: 100px;
+ gap: 30px;
+ margin: 0 auto;
 }
 
 .img-red
 {
-  height: 270px;
-  width: 250px;
+  height: 210px;
+  width: 210px;
   border-radius: 50%;
 
 }
